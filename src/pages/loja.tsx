@@ -20,7 +20,7 @@ export default function Loja() {
                 const categorias = new Set(produtosData.map((produto) => produto.category));
                 setCategorias(Array.from(categorias));
                 if (Array.from(categorias).length > 0) {
-                    setCategoriaSelecionada(Array.from(categorias)[0]);
+                    setCategoriaSelecionada(Array.from  (categorias)[0]);
                 }
             } catch (error) {
                 console.error("Erro ao buscar produtos:", error);
@@ -66,6 +66,7 @@ export default function Loja() {
                                 image={produto.image}
                                 title={produto.title}
                                 price={produto.price}
+                                rating={produto.rating.rate}
                                 onClick={() => {
                                     setProdutoSelecionado(produto)
                                     setModalIsOpen(true)

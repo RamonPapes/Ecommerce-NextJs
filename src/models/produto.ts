@@ -4,4 +4,8 @@ interface Produto {
     category: string;
     description:string;
     price: number;
+    rating: {
+        count: number;
+        rate: number;
+    }
 }
