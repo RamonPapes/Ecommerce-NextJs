@@ -11,7 +11,7 @@ interface MainLayoutProps {
 function MainLayout({ children }: MainLayoutProps) {
     return (
         <div>
-            <Sidebar />
+            {/* <Sidebar /> */}
             {children}
             <Footer />
         </div>
