@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import Produto from "@/components/produto";
 import ReactModal from "react-modal";
-import "../models/produto"
-
+import Navbar from "@/components/navbar";
+import "../models/produto";
 
 export default function Loja() {
     const [categorias, setCategorias] = useState<string[]>([]);
@@ -20,7 +20,7 @@ export default function Loja() {
                 const categorias = new Set(produtosData.map((produto) => produto.category));
                 setCategorias(Array.from(categorias));
                 if (Array.from(categorias).length > 0) {
-                    setCategoriaSelecionada(Array.from  (categorias)[0]);
+                    setCategoriaSelecionada(Array.from(categorias)[0]);
                 }
             } catch (error) {
                 console.error("Erro ao buscar produtos:", error);
@@ -37,24 +37,15 @@ export default function Loja() {
     const closeModal = () => {
         setModalIsOpen(false);
         setProdutoSelecionado(null);
-    }
+    };
 
     return (
         <div>
-            {/* Botões de categoria */}
-            <div className="flex items-center justify-center py-4 md:py-8 flex-wrap">
-                {categorias.map((categoria, index) => (
-                    <button
-                        key={index}
-                        type="button"
-                        className={`text-gray-900 border border-white hover:border-gray-200 dark:border-gray-900 dark:bg-gray-900 dark:hover:border-gray-700 bg-white focus:ring-4 focus:outline-none focus:ring-gray-300 rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3 ${categoria === categoriaSelecionada ? 'text-blue-700 border-blue-600 bg-blue-700 hover:bg-blue-700' : ''
-                            } dark:text-white dark:focus:ring-gray-800`}
-                        onClick={() => handleCategoriaSelecionada(categoria)}
-                    >
-                        {categoria}
-                    </button>
-                ))}
-            </div>
+            <Navbar
+                categorias={categorias}
+                categoriaSelecionada={categoriaSelecionada}
+                handleCategoriaSelecionada={handleCategoriaSelecionada}
+            />
             {/* Grid de produtos */}
             <div className="flex justify-center m-4">
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-5xl">
@@ -68,8 +59,8 @@ export default function Loja() {
                                 price={produto.price}
                                 rating={produto.rating.rate}
                                 onClick={() => {
-                                    setProdutoSelecionado(produto)
-                                    setModalIsOpen(true)
+                                    setProdutoSelecionado(produto);
+                                    setModalIsOpen(true);
                                 }}
                             />
                         ))}
@@ -119,7 +110,6 @@ export default function Loja() {
                     )}
                 </div>
             </ReactModal>
-
         </div>
     );
 }

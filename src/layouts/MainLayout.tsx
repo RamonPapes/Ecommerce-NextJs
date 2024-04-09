@@ -2,6 +2,7 @@
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import Sidebar from "@/components/sidebar";
+import Nav from "@/components/nav";
 
 interface MainLayoutProps {
     children: React.ReactNode;
