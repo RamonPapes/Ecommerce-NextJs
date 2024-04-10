@@ -20,7 +20,7 @@ export default function Carousel({ slides }: CarouselProps) {
 
     return (
         <div className='overflow-hidden relative my-10'>
-            <div className={`hidden sm:flex transition ease-out duration-700 `} style={{
+            <div className={`flex transition ease-out duration-700 `} style={{
                 transform: `translateX(-${current * 100}%)`
             }}>
                 {slides?.map((s: string, index: number) => (
@@ -31,10 +31,10 @@ export default function Carousel({ slides }: CarouselProps) {
 
             <div className='absolute top-0 h-full w-full justify-between items-center flex text-white px-10 text-3xl'>
                 <button>
-                    <Icon icon={"ri:arrow-left-line"} onClick={previousSlide}></Icon>
+                    <Icon icon={"fa:arrow-left"} onClick={previousSlide}></Icon>
                 </button>
                 <button>
-                    <Icon icon={"ri:arrow-right-line"} onClick={nextSlide}></Icon>
+                    <Icon icon={"fa:arrow-right"} onClick={nextSlide}></Icon>
                 </button>
             </div>
 
@@ -51,8 +51,6 @@ export default function Carousel({ slides }: CarouselProps) {
                         </div>
                     )
                 })}
-
-
             </div>
         </div >
     );

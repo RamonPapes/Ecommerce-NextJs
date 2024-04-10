@@ -1,8 +1,14 @@
 // src/layouts/MainLayout.js
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
-import Sidebar from "@/components/sidebar";
-import Nav from "@/components/nav";
+import '../app/globals.css'
+import { Montserrat } from 'next/font/google'
+
+const montserrat = Montserrat({ subsets: ['latin'] })
+
+export const metadata = {
+    title: "Clothes Clove",
+}
 
 interface MainLayoutProps {
     children: React.ReactNode;
@@ -10,11 +16,14 @@ interface MainLayoutProps {
 
 function MainLayout({ children }: MainLayoutProps) {
     return (
-        <div>
-            {/* <Sidebar /> */}
-            {children}
-            <Footer />
-        </div>
+        <html lang="pt-br">
+            <body className={`${montserrat.className}`}>
+                <Navbar />
+                {children}
+                <Footer />
+            </body>
+
+        </html>
     );
 }
 
