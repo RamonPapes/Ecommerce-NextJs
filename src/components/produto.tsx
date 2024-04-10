@@ -30,14 +30,12 @@ const Produto: React.FC<ProdutoProps> = ({ image, title, price, rating, onClick 
     };
 
     return (
-        <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-md">
-            <a href="#" className='flex justify-center'>
+        <div className="w-full max-w-sm bg-white border border-gray-200 rounded-xl shadow-xl">
+            <div className='flex justify-center'>
                 <img className="p-8 rounded-t-lg min-h-10 max-h-60" src={image} alt={title} />
-            </a>
+            </div>
             <div className="px-5 pb-5">
-                <a href="#">
-                    <h5 className="text-xl font-semibold tracking-tight text-gray-900">{title}</h5>
-                </a>
+                <h5 className="text-xl font-semibold tracking-tight text-gray-900">{title}</h5>
                 <div className="flex items-center mt-2.5 mb-5">
                     <div className="flex items-center space-x-1 rtl:space-x-reverse">
                         {renderRatingStars()}

@@ -41,11 +41,11 @@ export default function Loja() {
 
     return (
         <div>
-            <Navbar
+            {/* <Navbar
                 categorias={categorias}
                 categoriaSelecionada={categoriaSelecionada}
                 handleCategoriaSelecionada={handleCategoriaSelecionada}
-            />
+            /> */}
             {/* Grid de produtos */}
             <div className="flex justify-center m-4">
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-5xl">
