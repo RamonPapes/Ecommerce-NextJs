@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
     return (
         <div>
@@ -8,16 +10,16 @@ export default function Footer() {
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h2>
                             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                                 <li className="mb-4">
-                                    <a href="#" className=" hover:underline">About</a>
+                                    <Link href="#" className=" hover:underline">About</Link>
                                 </li>
                                 <li className="mb-4">
-                                    <a href="#" className="hover:underline">Careers</a>
+                                    <Link href="#" className="hover:underline">Careers</Link>
                                 </li>
                                 <li className="mb-4">
-                                    <a href="#" className="hover:underline">Brand Center</a>
+                                    <Link href="#" className="hover:underline">Brand Center</Link>
                                 </li>
                                 <li className="mb-4">
-                                    <a href="#" className="hover:underline">Blog</a>
+                                    <Link href="#" className="hover:underline">Blog</Link>
                                 </li>
                             </ul>
                         </div>
@@ -25,16 +27,16 @@ export default function Footer() {
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Help center</h2>
                             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                                 <li className="mb-4">
-                                    <a href="#" className="hover:underline">Discord Server</a>
+                                    <Link href="#" className="hover:underline">Discord Server</Link>
                                 </li>
                                 <li className="mb-4">
-                                    <a href="#" className="hover:underline">Twitter</a>
+                                    <Link href="#" className="hover:underline">Twitter</Link>
                                 </li>
                                 <li className="mb-4">
-                                    <a href="#" className="hover:underline">Facebook</a>
+                                    <Link href="#" className="hover:underline">Facebook</Link>
                                 </li>
                                 <li className="mb-4">
-                                    <a href="#" className="hover:underline">Contact Us</a>
+                                    <Link href="#" className="hover:underline">Contact Us</Link>
                                 </li>
                             </ul>
                         </div>
@@ -42,13 +44,13 @@ export default function Footer() {
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
                             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                                 <li className="mb-4">
-                                    <a href="#" className="hover:underline">Privacy Policy</a>
+                                    <Link href="#" className="hover:underline">Privacy Policy</Link>
                                 </li>
                                 <li className="mb-4">
-                                    <a href="#" className="hover:underline">Licensing</a>
+                                    <Link href="#" className="hover:underline">Licensing</Link>
                                 </li>
                                 <li className="mb-4">
-                                    <a href="#" className="hover:underline">Terms &amp; Conditions</a>
+                                    <Link href="#" className="hover:underline">Terms &amp; Conditions</Link>
                                 </li>
                             </ul>
                         </div>
@@ -56,16 +58,16 @@ export default function Footer() {
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Download</h2>
                             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                                 <li className="mb-4">
-                                    <a href="#" className="hover:underline">iOS</a>
+                                    <Link href="#" className="hover:underline">iOS</Link>
                                 </li>
                                 <li className="mb-4">
-                                    <a href="#" className="hover:underline">Android</a>
+                                    <Link href="#" className="hover:underline">Android</Link>
                                 </li>
                                 <li className="mb-4">
-                                    <a href="#" className="hover:underline">Windows</a>
+                                    <Link href="#" className="hover:underline">Windows</Link>
                                 </li>
                                 <li className="mb-4">
-                                    <a href="#" className="hover:underline">MacOS</a>
+                                    <Link href="#" className="hover:underline">MacOS</Link>
                                 </li>
                             </ul>
                         </div>
