@@ -16,14 +16,13 @@ interface MainLayoutProps {
 
 function MainLayout({ children }: MainLayoutProps) {
     return (
-        <html lang="pt-br">
-            <body className={`${montserrat.className}`}>
-                <Navbar />
-                {children}
-                <Footer />
-            </body>
 
-        </html>
+        <div className={`${montserrat.className}`}>
+            <Navbar />
+            {children}
+            <Footer />
+        </div>
+
     );
 }
 
