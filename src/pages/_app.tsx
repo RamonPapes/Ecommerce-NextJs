@@ -1,7 +1,6 @@
 // src/pages/_app.js
 import MainLayout from '../layouts/MainLayout';
 import '../app/globals.css';
-import { Interface } from 'readline';
 import { AppProps } from 'next/app';
 
 function MyApp({ Component, pageProps } : AppProps) {
