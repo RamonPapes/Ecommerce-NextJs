@@ -33,22 +33,22 @@ const FeaturesSection: React.FC = () => {
                 <FeatureItem
                     iconName="fa-solid:tshirt"
                     title="Product Variety"
-                    description="At Clothes Clove, we offer a wide range of products that cater to different styles and needs, from casual wear to formal fashion."
+                    description="At Clothes Clove we offer a wide range of products that cater to different styles and needs from casual wear to formal fashion."
                 />
                 <FeatureItem
                     iconName="icon-park-solid:folder-quality"
                     title="Premium Quality"
-                    description=" Our commitment to quality is unwavering. We use only the finest materials and manufacturing techniques to ensure each piece is durable and comfortable."
+                    description="Our commitment to quality is unwavering. We use only the finest materials and manufacturing techniques to ensure each piece is durable and comfortable."
                 />
                 <FeatureItem
                     iconName="bi:lightbulb-fill"
                     title="Exclusive Design"
-                    description="Our collections are carefully crafted by a talented team of designers, resulting in unique pieces you&apos;ll not find anywhere else."
+                    description="Our collections are carefully crafted by a talented team of designers resulting in unique pieces you&apos;ll not find anywhere else."
                 />
                 <FeatureItem
                     iconName="emojione:seedling"
                     title="Environmental Sustainability "
-                    description="At Clothes Clove, we&apos;re committed to sustainable practices. Our production processes minimize environmental impact, utilizing recycled materials and eco friendly techniques."
+                    description="At Clothes Clove, we&apos;re committed to sustainable practices. Our production processes minimize environmental impact utilizing recycled materials and eco friendly techniques."
                 />
                 <FeatureItem
                     iconName="bx:bxs-smile"
@@ -58,7 +58,7 @@ const FeaturesSection: React.FC = () => {
                 <FeatureItem
                     iconName="ic:round-monetization-on"
                     title="Competitive Pricing"
-                    description="We offer high quality products at competitive prices. At Clothes Clove, you can get the best value for your money."
+                    description="We offer high quality products at competitive prices. At Clothes Clove you can get the best value for your money."
                 />
             </div>
         </div>
