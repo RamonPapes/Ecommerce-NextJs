@@ -16,7 +16,7 @@ export default function About() {
 
                             At Clothes Clove, we believe that everyone deserves to feel confident and stylish in what they wear. Our journey began with a simple idea: to create a shopping experience that is both convenient and enjoyable for our customers.
 
-                            Our team is passionate about fashion and committed to providing you with the latest trends and high-quality clothing at affordable prices. Whether you&apos;re looking for casual everyday wear, elegant evening attire, or trendy accessories, we&apos;ve got you covered.
+                            Our team is passionate about fashion and committed to providing you with the latest trends and high quality clothing at affordable prices. Whether you&apos;re looking for casual everyday wear, elegant evening attire, or trendy accessories, we&apos;ve got you covered.
 
                             But Clothes Clove is more than just a clothing store. We&apos;re a community of fashion enthusiasts who celebrate individuality and self-expression. We believe that fashion is a form of art, and each outfit is a canvas waiting to be painted with your unique personality.
 
@@ -37,9 +37,9 @@ export default function About() {
 
                             Driven by our passion for style and innovation, we set out to build a brand that would inspire people to express themselves through their clothing. From the very beginning, our focus has been on creating timeless pieces that blend classic elegance with modern flair.
 
-                            Today, Clothes Clove stands as a testament to our dedication and commitment to excellence. We&apos;re proud to offer a curated collection of fashion-forward garments and accessories that reflect our passion for quality and craftsmanship.
+                            Today, Clothes Clove stands as a testament to our dedication and commitment to excellence. We&apos;re proud to offer a curated collection of fashion forward garments and accessories that reflect our passion for quality and craftsmanship.
 
-                            But our story is far from over. As we continue to evolve and grow, we remain true to our roots, guided by our core values of integrity, creativity, and inclusivity. Together with our customers, we&apos;re writing the next chapter of our story—one stylish outfit at a time.
+                            But our story is far from over. As we continue to evolve and grow, we remain true to our roots, guided by our core values of integrity, creativity, and inclusivity. Together with our customers, we&apos;re writing the next chapter of our story one stylish outfit at a time.
 
                             Join us on this journey as we celebrate individuality, creativity, and the transformative power of fashion. Together, let&apos;s make every day a fashionable adventure!</p>
                     </div>
