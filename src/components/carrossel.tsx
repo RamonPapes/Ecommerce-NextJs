@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Icon } from '@iconify/react/dist/iconify.js';
 
 interface CarouselProps {
@@ -6,7 +6,7 @@ interface CarouselProps {
 }
 
 export default function Carousel({ slides }: CarouselProps) {
-    let [current, setCurrent]: any = useState(0);
+    const [current, setCurrent] = useState(0);
 
     const previousSlide = () => {
         if (current === 0) setCurrent(slides.length - 1);
@@ -18,6 +18,14 @@ export default function Carousel({ slides }: CarouselProps) {
         else setCurrent(current + 1);
     };
 
+    useEffect(() => {
+        const interval = setInterval(() => {
+            nextSlide();
+        }, 3000);
+
+        return () => clearInterval(interval);
+    }, [current]);
+
     return (
         <div className='overflow-hidden relative my-10'>
             <div className={`flex transition ease-out duration-700 `} style={{
@@ -26,7 +34,6 @@ export default function Carousel({ slides }: CarouselProps) {
                 {slides?.map((s: string, index: number) => (
                     <img key={index} src={s} alt={`Slide ${index}`} />
                 ))}
-
             </div>
 
             <div className='absolute top-0 h-full w-full justify-between items-center flex text-white px-10 text-3xl'>

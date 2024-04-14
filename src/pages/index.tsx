@@ -110,7 +110,7 @@ const Main = () => {
                   {produtoSelecionado && produtoSelecionado.description}
                 </p>
                 <p className="text-xl font-black text-gray-800">
-                  {produtoSelecionado && produtoSelecionado.price.toFixed(2)} R$
+                  ${produtoSelecionado && produtoSelecionado.price.toFixed(2)}
                 </p>
               </div>
             </div>
