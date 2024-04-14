@@ -4,6 +4,8 @@
 
 Clothes Clove é um projeto de comércio eletrônico para roupas e eletrônicos, desenvolvido utilizando Next.js e Tailwind CSS. Os produtos utilizados como catálogo foram consumidos de uma API pública com dados de produtos fictícios, feitos apenas para prototipagem e simulação. A API utilizada é a FakeStore, disponível em: [FateStoreAPI](https://fakestoreapi.com/).
 
+O projeto foi hospedado no seguinte link: [https://ecommerce-next-js-sage.vercel.app/](https://ecommerce-next-js-sage.vercel.app/)
+
 
 ## Como usar
 
