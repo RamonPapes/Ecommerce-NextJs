@@ -13,7 +13,6 @@ export default function About() {
                     <div className="w-full lg:w-5/12 flex flex-col justify-center">
                         <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 pb-4">About Us</h1>
                         <p className="font-normal text-base leading-6 text-gray-600 ">Welcome to Clothes Clove!
-
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tenetur dolores suscipit ullam omnis odit aliquam ipsum, libero distinctio obcaecati itaque fuga ad optio quo perferendis quas sint necessitatibus. Quaerat!
                         </p>
                     </div>
