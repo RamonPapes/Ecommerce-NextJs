@@ -1,4 +1,3 @@
-// src/layouts/MainLayout.js
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import '../app/globals.css'
