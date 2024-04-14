@@ -3,12 +3,12 @@ import Link from "next/link";
 export default function Footer() {
     return (
         <div>
-            <footer className="bg-white dark:bg-gray-900 bottom-0 w-full mt-4 self-end">
+            <footer className=" bg-gray-900 bottom-0 w-full mt-4 self-end">
                 <div className="mx-auto w-full max-w-screen-xl">
                     <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
                         <div>
-                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h2>
-                            <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                            <h2 className="mb-6 text-sm font-semibold  uppercase text-white">Company</h2>
+                            <ul className="text-gray-400 font-medium">
                                 <li className="mb-4">
                                     <Link href="/about" className=" hover:underline">About</Link>
                                 </li>
@@ -24,8 +24,8 @@ export default function Footer() {
                             </ul>
                         </div>
                         <div>
-                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Help center</h2>
-                            <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                            <h2 className="mb-6 text-sm font-semibold  uppercase text-white">Help center</h2>
+                            <ul className="text-gray-400 font-medium">
                                 <li className="mb-4">
                                     <Link href="/contato" className="hover:underline">Contact Us</Link>
                                 </li>
@@ -41,8 +41,8 @@ export default function Footer() {
                             </ul>
                         </div>
                         <div>
-                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h2>
-                            <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                            <h2 className="mb-6 text-sm font-semibold uppercase text-white">Company</h2>
+                            <ul className="text-gray-400 font-medium">
                                 <li className="mb-4">
                                     <Link href="/about" className=" hover:underline">About</Link>
                                 </li>
@@ -58,8 +58,8 @@ export default function Footer() {
                             </ul>
                         </div>
                         <div>
-                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Help center</h2>
-                            <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                            <h2 className="mb-6 text-sm font-semibold  uppercase text-white">Help center</h2>
+                            <ul className="text-gray-400 font-medium">
                                 <li className="mb-4">
                                     <Link href="/contato" className="hover:underline">Contact Us</Link>
                                 </li>

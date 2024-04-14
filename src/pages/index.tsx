@@ -6,6 +6,11 @@ import { Icon } from '@iconify/react/dist/iconify.js';
 import Head from 'next/head';
 
 
+const capitalizeFirstLetter = (str: String) => {
+  return str.charAt(0).toUpperCase() + str.slice(1);
+};
+
+
 const Main = () => {
   const slides = ['banner1.png', 'banner2.png', 'banner3.png'];
   const [categorias, setCategorias] = useState<string[]>([]);
@@ -18,6 +23,10 @@ const Main = () => {
       try {
         const res = await fetch("https://fakestoreapi.com/products");
         const produtosData: Produto[] = await res.json();
+        produtosData.forEach((produto) => {
+          produto.category = capitalizeFirstLetter(produto.category);
+          produto.description = capitalizeFirstLetter(produto.description);
+        });
         const categoriasSet = new Set(produtosData.map((produto) => produto.category));
         const categoriasArray = Array.from(categoriasSet);
         const produtosPorCategoriaTemp: { [key: string]: Produto[] } = {};
