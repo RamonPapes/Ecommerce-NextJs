@@ -1,4 +1,3 @@
-// src/pages/_app.js
 import MainLayout from '../layouts/MainLayout';
 import '../app/globals.css';
 import { AppProps } from 'next/app';
