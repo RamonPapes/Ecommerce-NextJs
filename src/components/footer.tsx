@@ -10,16 +10,16 @@ export default function Footer() {
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h2>
                             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                                 <li className="mb-4">
-                                    <Link href="#" className=" hover:underline">About</Link>
+                                    <Link href="/about" className=" hover:underline">About</Link>
                                 </li>
                                 <li className="mb-4">
-                                    <Link href="#" className="hover:underline">Careers</Link>
+                                    <Link href="" className="hover:underline">Careers</Link>
                                 </li>
                                 <li className="mb-4">
-                                    <Link href="#" className="hover:underline">Values</Link>
+                                    <Link href="" className="hover:underline">Values</Link>
                                 </li>
                                 <li className="mb-4">
-                                    <Link href="#" className="hover:underline">Blog</Link>
+                                    <Link href="" className="hover:underline">Blog</Link>
                                 </li>
                             </ul>
                         </div>
@@ -30,13 +30,13 @@ export default function Footer() {
                                     <Link href="/contato" className="hover:underline">Contact Us</Link>
                                 </li>
                                 <li className="mb-4">
-                                    <Link href="#" className="hover:underline">Instagram</Link>
+                                    <Link href="" className="hover:underline">Instagram</Link>
                                 </li>
                                 <li className="mb-4">
-                                    <Link href="#" className="hover:underline">Twitter</Link>
+                                    <Link href="" className="hover:underline">Twitter</Link>
                                 </li>
                                 <li className="mb-4">
-                                    <Link href="#" className="hover:underline">Facebook</Link>
+                                    <Link href="" className="hover:underline">Facebook</Link>
                                 </li>
                             </ul>
                         </div>
@@ -44,16 +44,16 @@ export default function Footer() {
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h2>
                             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                                 <li className="mb-4">
-                                    <Link href="#" className=" hover:underline">About</Link>
+                                    <Link href="/about" className=" hover:underline">About</Link>
                                 </li>
                                 <li className="mb-4">
-                                    <Link href="#" className="hover:underline">Careers</Link>
+                                    <Link href="" className="hover:underline">Careers</Link>
                                 </li>
                                 <li className="mb-4">
-                                    <Link href="#" className="hover:underline">Values</Link>
+                                    <Link href="" className="hover:underline">Values</Link>
                                 </li>
                                 <li className="mb-4">
-                                    <Link href="#" className="hover:underline">Blog</Link>
+                                    <Link href="" className="hover:underline">Blog</Link>
                                 </li>
                             </ul>
                         </div>
@@ -64,13 +64,13 @@ export default function Footer() {
                                     <Link href="/contato" className="hover:underline">Contact Us</Link>
                                 </li>
                                 <li className="mb-4">
-                                    <Link href="#" className="hover:underline">Instagram</Link>
+                                    <Link href="" className="hover:underline">Instagram</Link>
                                 </li>
                                 <li className="mb-4">
-                                    <Link href="#" className="hover:underline">Twitter</Link>
+                                    <Link href="" className="hover:underline">Twitter</Link>
                                 </li>
                                 <li className="mb-4">
-                                    <Link href="#" className="hover:underline">Facebook</Link>
+                                    <Link href="" className="hover:underline">Facebook</Link>
                                 </li>
                             </ul>
                         </div>

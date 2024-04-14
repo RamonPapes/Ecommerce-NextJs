@@ -30,6 +30,9 @@ const Navbar = () => {
                             <Link href="/" className={`block py-2 px-3 rounded md:bg-transparent md:p-0  dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:border-gray-700 ${router.pathname === '/' ? 'text-blue-700 bg-gray-900' : 'text-white hover:bg-blue-700 md:hover:text-blue-700'}`} aria-current={router.pathname === '/' ? 'page' : undefined}>Home</Link>
                         </li>
                         <li>
+                            <Link href="/about" className={`block py-2 px-3 rounded md:bg-transparent md:p-0  dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:border-gray-700 ${router.pathname === '/about' ? 'text-blue-700 bg-gray-900' : 'text-white hover:bg-blue-700 md:hover:text-blue-700'}`} aria-current={router.pathname === '/about' ? 'page' : undefined}>About</Link>
+                        </li>
+                        <li>
                             <Link href="/contact" className={`block py-2 px-3 rounded md:bg-transparent md:p-0  dark:hover:bg-gray-700 md:dark:hover:bg-transparent dark:border-gray-700 ${router.pathname === '/contact' ? 'text-blue-700 bg-gray-900' : 'text-white hover:bg-blue-700 md:hover:text-blue-700'}`} aria-current={router.pathname === '/contact' ? 'page' : undefined}>Contact</Link>
                         </li>
                     </ul>
