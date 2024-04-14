@@ -1,5 +1,7 @@
 import FeaturesSection from "@/components/feature-section";
 import Head from "next/head";
+import Image from "next/image";
+
 export default function About() {
     return (
         <div>
@@ -24,7 +26,7 @@ export default function About() {
                         </p>
                     </div>
                     <div className="w-full lg:w-8/12 ">
-                        <img className="w-full h-full" src="grupo.jpg" alt="A group of People" />
+                        <Image src="/grupo.jpg" alt="A group of People" width={1920} height={1280} />
                     </div>
                 </div>
 
@@ -44,31 +46,26 @@ export default function About() {
                     <div className="w-full lg:w-8/12 lg:pt-8">
                         <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 lg:gap-4 shadow-lg rounded-md">
                             <div className="p-4 pb-6 flex justify-center flex-col items-center">
-                                <img className="md:block hidden" src="https://i.ibb.co/FYTKDG6/Rectangle-118-2.png" alt="Alexa featured Img" />
-                                <img className="md:hidden block" src="https://i.ibb.co/zHjXqg4/Rectangle-118.png" alt="Alexa featured Img" />
+                                <Image src="https://i.ibb.co/FYTKDG6/Rectangle-118-2.png" alt="Alexa featured Img" width={300} height={300} />
                                 <p className="font-medium text-xl leading-5 text-gray-800 mt-4">Mary</p>
                             </div>
                             <div className="p-4 pb-6 flex justify-center flex-col items-center">
-                                <img className="md:block hidden" src="https://i.ibb.co/fGmxhVy/Rectangle-119.png" alt="Olivia featured Img" />
-                                <img className="md:hidden block" src="https://i.ibb.co/NrWKJ1M/Rectangle-119.png" alt="Olivia featured Img" />
+                                <Image src="https://i.ibb.co/fGmxhVy/Rectangle-119.png" alt="Olivia featured Img" width={300} height={300} />
                                 <p className="font-medium text-xl leading-5 text-gray-800 mt-4">July</p>
                             </div>
                             <div className="p-4 pb-6 flex justify-center flex-col items-center">
-                                <img className="md:block hidden" src="https://i.ibb.co/Pc6XVVC/Rectangle-120.png" alt="Liam featued Img" />
-                                <img className="md:hidden block" src="https://i.ibb.co/C5MMBcs/Rectangle-120.png" alt="Liam featued Img" />
+                                <Image src="https://i.ibb.co/Pc6XVVC/Rectangle-120.png" alt="Liam featued Img" width={300} height={300} />
                                 <p className="font-medium text-xl leading-5 text-gray-800 mt-4">Jake</p>
                             </div>
                             <div className="p-4 pb-6 flex justify-center flex-col items-center">
-                                <img className="md:block hidden" src="https://i.ibb.co/7nSJPXQ/Rectangle-121.png" alt="Elijah featured img" />
-                                <img className="md:hidden block" src="https://i.ibb.co/ThZBWxH/Rectangle-121.png" alt="Elijah featured img" />
+                                <Image src="https://i.ibb.co/7nSJPXQ/Rectangle-121.png" alt="Elijah featured img" width={300} height={300} />
                                 <p className="font-medium text-xl leading-5 text-gray-800 mt-4">Paul</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <FeaturesSection></FeaturesSection>
+                <FeaturesSection />
             </div>
         </div>
-
     );
 }
