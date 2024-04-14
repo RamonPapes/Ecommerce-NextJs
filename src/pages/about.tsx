@@ -46,19 +46,19 @@ export default function About() {
                     <div className="w-full lg:w-8/12 lg:pt-8">
                         <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 lg:gap-4 shadow-lg rounded-md">
                             <div className="p-4 pb-6 flex justify-center flex-col items-center">
-                                <Image src="https://i.ibb.co/FYTKDG6/Rectangle-118-2.png" alt="Alexa featured Img" width={300} height={300} />
+                                <Image src="/Rectangle-118-2.png" alt="Alexa featured Img" width={300} height={300} />
                                 <p className="font-medium text-xl leading-5 text-gray-800 mt-4">Mary</p>
                             </div>
                             <div className="p-4 pb-6 flex justify-center flex-col items-center">
-                                <Image src="https://i.ibb.co/fGmxhVy/Rectangle-119.png" alt="Olivia featured Img" width={300} height={300} />
+                                <Image src="/Rectangle-119.png" alt="Olivia featured Img" width={300} height={300} />
                                 <p className="font-medium text-xl leading-5 text-gray-800 mt-4">July</p>
                             </div>
                             <div className="p-4 pb-6 flex justify-center flex-col items-center">
-                                <Image src="https://i.ibb.co/Pc6XVVC/Rectangle-120.png" alt="Liam featued Img" width={300} height={300} />
+                                <Image src="/Rectangle-120.png" alt="Liam featued Img" width={300} height={300} />
                                 <p className="font-medium text-xl leading-5 text-gray-800 mt-4">Jake</p>
                             </div>
                             <div className="p-4 pb-6 flex justify-center flex-col items-center">
-                                <Image src="https://i.ibb.co/7nSJPXQ/Rectangle-121.png" alt="Elijah featured img" width={300} height={300} />
+                                <Image src="/Rectangle-121.png" alt="Elijah featured img" width={300} height={300} />
                                 <p className="font-medium text-xl leading-5 text-gray-800 mt-4">Paul</p>
                             </div>
                         </div>
