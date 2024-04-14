@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Clothes Clove
 
-## Getting Started
+## Sobre
 
-First, run the development server:
+Clothes Clove é um projeto de comércio eletrônico para roupas e eletrônicos, desenvolvido utilizando Next.js e Tailwind CSS. Os produtos utilizados como catálogo foram consumidos de uma API pública com dados de produtos fictícios, feitos apenas para prototipagem e simulação. A API utilizada é a FakeStore, disponível em: [FateStoreAPI](https://fakestoreapi.com/).
+
+
+## Como usar
+
+### Clonar o Repositório
+
+Para clonar o repositório, execute o seguinte comando no terminal:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/RamonPapes/Ecommerce-NextJs
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Baixar o Repositório
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Se você não tiver o Git instalado em sua máquina, ainda pode baixar o repositório diretamente do GitHub:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Navegue até a página do repositório em [https://github.com/RamonPapes/Ecommerce-NextJs](https://github.com/RamonPapes/Ecommerce-NextJs).
+2. Clique no botão verde "Code" e selecione "Download ZIP".
+3. Após o download, extraia o arquivo ZIP em um local de sua preferência em seu computador.
+4. Navegue até o diretório do projeto no terminal e continue com as instruções de instalação e execução conforme descrito no README.md.
 
-## Learn More
+### Instalar Dependências 
 
-To learn more about Next.js, take a look at the following resources:
+Certifique-se de ter o Node.js Versão 16 (ou superior) instalado em seu computador. 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Certifique-se de ter o Node.js Versão 16 (ou superior) instalado em seu computador. Caso não tenha o Node.js em seu computador, você pode baixá-lo [aqui.](https://nodejs.org/en)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Para conferir sua versão do Node.js e verificar se está instalado, execute o seguinte comando no terminal:
+```bash
+node -- version
+```
+Em seguida, navegue até o diretório do projeto e execute o seguinte comando para instalar as dependências:
 
-## Deploy on Vercel
+```bash
+npm install
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Rodar o Projeto
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Para rodar o projeto localmente, execute o seguinte comando:
+```bash
+npm run dev
+```
+
+O projeto estará disponível em [http://localhost:3000.](http:localhost:3000)
+
+## Versões
+- Node.js: v16.x.x (ou superior)
+- Next.js: v14.1.4
+- React: v18.x.x
+- React DOM: v18.x.x
+- React Modal: v3.16.1
