@@ -43,7 +43,7 @@ const FeaturesSection: React.FC = () => {
                 <FeatureItem
                     iconName="bi:lightbulb-fill"
                     title="Exclusive Design"
-                    description="Our collections are carefully crafted by a talented team of designers, resulting in unique pieces you won&apos;t find anywhere else."
+                    description="Our collections are carefully crafted by a talented team of designers, resulting in unique pieces you&apos;ll not find anywhere else."
                 />
                 <FeatureItem
                     iconName="emojione:seedling"
