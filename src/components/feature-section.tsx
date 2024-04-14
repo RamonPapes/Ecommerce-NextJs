@@ -48,7 +48,7 @@ const FeaturesSection: React.FC = () => {
                 <FeatureItem
                     iconName="emojione:seedling"
                     title="Environmental Sustainability "
-                    description="At Clothes Clove, we're committed to sustainable practices. Our production processes minimize environmental impact, utilizing recycled materials and eco-friendly techniques."
+                    description="At Clothes Clove, we&apos;re committed to sustainable practices. Our production processes minimize environmental impact, utilizing recycled materials and eco friendly techniques."
                 />
                 <FeatureItem
                     iconName="bx:bxs-smile"
@@ -58,7 +58,7 @@ const FeaturesSection: React.FC = () => {
                 <FeatureItem
                     iconName="ic:round-monetization-on"
                     title="Competitive Pricing"
-                    description="We offer high-quality products at competitive prices. At Clothes Clove, you can get the best value for your money."
+                    description="We offer high quality products at competitive prices. At Clothes Clove, you can get the best value for your money."
                 />
             </div>
         </div>
